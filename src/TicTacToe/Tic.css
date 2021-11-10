@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+}
+
+table td{
+    border: 5px solid rgb(12, 162, 182);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+
+button{
+    background-color: rgb(60, 32, 165);
+    font-size: 20px;
+    box-shadow: 10px solid black;
+    color: rgb(255, 255, 255);
+}
+
+.winner{
+    color: chartreuse;
+    font-size: 45px;
+}
